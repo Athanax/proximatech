@@ -12,7 +12,7 @@
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         @csrf
 
-                        <div class="form-group row">
+                        <div class="form-group row" style="padding-top:0; padding-bottom:0">
                             <label for="name" class="col-md-4 control-label">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
@@ -26,7 +26,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group row" style="padding-top:0; padding-bottom:0">
                             <label for="email" class="col-md-4 control-label">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group row" style="padding-top:0; padding-bottom:0">
                             <label for="password" class="col-md-4 control-label">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
@@ -54,7 +54,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group row">
+                        <div class="form-group row" style="padding-top:0; padding-bottom:0">
                             <label for="password-confirm" class="col-md-4 control-label">{{ __('Confirm Password') }}</label>
 
                             <div class="col-md-6">
