@@ -17,7 +17,7 @@
         <![endif]-->
 </head>
 <body>
-<header class="main__header bg-primary" style="top:50px;">
+<header class="main__header bg-primary" >
   <div class="container ">
     <nav class="navbar navbar-default" role="navigation"> 
       <!-- Brand and toggle get grouped for better mobile display --> 
